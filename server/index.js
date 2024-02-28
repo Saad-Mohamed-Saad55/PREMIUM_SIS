@@ -83,7 +83,7 @@ app.delete("/delete/:id", async (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://root:1234@cluster0.hp2dlnp.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://Saad_Mohamed_Saad:z9NhzI8y3LmWhCmO@lms.wu8y1pe.mongodb.net/SIS?retryWrites=true&w=majority&appName=LMS"
   )
   .then(() => {
     console.log("Connected to DB");
